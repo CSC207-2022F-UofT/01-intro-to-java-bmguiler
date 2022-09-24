@@ -184,7 +184,7 @@ public class Basics {
         }
 
         else {
-            for (int i = 1; i <= arr.length; i = i + 2){
+            for (int i = 1; i < arr.length; i = i + 2){
                 current_sum += arr[i];
             }
         }
